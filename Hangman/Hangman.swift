@@ -13,9 +13,11 @@ class Hangman {
     var answer: String?
     var knownString: String?
     var guessedLetters: NSMutableArray?
+    var prev_guess: String?
     
     init() {
         words = HangmanWords()
+        
     }
     
     func start() {
@@ -44,22 +46,23 @@ class Hangman {
             if String(chars[i]) == letter {
                 result = true
                 knownString = "\((knownString! as NSString).substringToIndex(i))" + "\(letter)"
-                            + "\((knownString! as NSString).substringFromIndex(i+1))"
+                    + "\((knownString! as NSString).substringFromIndex(i+1))"
             }
             
         }
         return result
     }
     
-    func guesses() -> String {
+    func guesses() -> String? {
         if guessedLetters!.count > 0 {
             return ""
         }
         var result: String = guessedLetters!.objectAtIndex(0) as! String
-        for (var i = 0; i < guessedLetters!.count; i += 1) {
+        for (var i = 1; i < guessedLetters!.count; i += 1) {
             result = result + ", \(guessedLetters?.objectAtIndex(i))"
         }
+        prev_guess = result;
         return result
     }
-
+    
 }

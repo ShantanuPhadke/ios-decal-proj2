@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BA5C3B91BF26D8300318BB8 /* hangman1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5C3B81BF26D8300318BB8 /* hangman1.gif */; };
+		2BA5C3BB1BF26D9600318BB8 /* hangman2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5C3BA1BF26D9600318BB8 /* hangman2.gif */; };
+		2BA5C3BD1BF26D9B00318BB8 /* hangman3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5C3BC1BF26D9B00318BB8 /* hangman3.gif */; };
+		2BA5C3BF1BF26DA200318BB8 /* hangman4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5C3BE1BF26DA200318BB8 /* hangman4.gif */; };
+		2BA5C3C11BF26DAD00318BB8 /* hangman5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5C3C01BF26DAD00318BB8 /* hangman5.gif */; };
+		2BA5C3C31BF26DB200318BB8 /* hangman6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5C3C21BF26DB200318BB8 /* hangman6.gif */; };
+		2BA5C3C51BF26DB700318BB8 /* hangman7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BA5C3C41BF26DB700318BB8 /* hangman7.gif */; };
 		3A2BBF5A1BCDDAC200B23285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BBF591BCDDAC200B23285 /* AppDelegate.swift */; };
 		3A2BBF5C1BCDDAC200B23285 /* HangmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BBF5B1BCDDAC200B23285 /* HangmanViewController.swift */; };
 		3A2BBF5F1BCDDAC200B23285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2BBF5D1BCDDAC200B23285 /* Main.storyboard */; };
@@ -18,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BA5C3B81BF26D8300318BB8 /* hangman1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman1.gif; path = ../../../../.Trash/hangman1.gif; sourceTree = "<group>"; };
+		2BA5C3BA1BF26D9600318BB8 /* hangman2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman2.gif; path = "basic-hangman-img/hangman2.gif"; sourceTree = SOURCE_ROOT; };
+		2BA5C3BC1BF26D9B00318BB8 /* hangman3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman3.gif; path = "basic-hangman-img/hangman3.gif"; sourceTree = SOURCE_ROOT; };
+		2BA5C3BE1BF26DA200318BB8 /* hangman4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman4.gif; path = "basic-hangman-img/hangman4.gif"; sourceTree = SOURCE_ROOT; };
+		2BA5C3C01BF26DAD00318BB8 /* hangman5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman5.gif; path = "basic-hangman-img/hangman5.gif"; sourceTree = SOURCE_ROOT; };
+		2BA5C3C21BF26DB200318BB8 /* hangman6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman6.gif; path = "basic-hangman-img/hangman6.gif"; sourceTree = SOURCE_ROOT; };
+		2BA5C3C41BF26DB700318BB8 /* hangman7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman7.gif; path = "basic-hangman-img/hangman7.gif"; sourceTree = SOURCE_ROOT; };
 		3A2BBF561BCDDAC200B23285 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2BBF591BCDDAC200B23285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A2BBF5B1BCDDAC200B23285 /* HangmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +98,13 @@
 		3A2BBF701BCDE24000B23285 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2BA5C3C41BF26DB700318BB8 /* hangman7.gif */,
+				2BA5C3C21BF26DB200318BB8 /* hangman6.gif */,
+				2BA5C3C01BF26DAD00318BB8 /* hangman5.gif */,
+				2BA5C3BE1BF26DA200318BB8 /* hangman4.gif */,
+				2BA5C3BC1BF26D9B00318BB8 /* hangman3.gif */,
+				2BA5C3BA1BF26D9600318BB8 /* hangman2.gif */,
+				2BA5C3B81BF26D8300318BB8 /* hangman1.gif */,
 				3A2BBF5B1BCDDAC200B23285 /* HangmanViewController.swift */,
 			);
 			name = Views;
@@ -156,9 +177,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A2BBF6F1BCDDEBB00B23285 /* words.plist in Resources */,
+				2BA5C3BD1BF26D9B00318BB8 /* hangman3.gif in Resources */,
 				3A2BBF641BCDDAC200B23285 /* LaunchScreen.storyboard in Resources */,
+				2BA5C3BB1BF26D9600318BB8 /* hangman2.gif in Resources */,
+				2BA5C3C31BF26DB200318BB8 /* hangman6.gif in Resources */,
 				3A2BBF611BCDDAC200B23285 /* Assets.xcassets in Resources */,
+				2BA5C3C51BF26DB700318BB8 /* hangman7.gif in Resources */,
 				3A2BBF5F1BCDDAC200B23285 /* Main.storyboard in Resources */,
+				2BA5C3BF1BF26DA200318BB8 /* hangman4.gif in Resources */,
+				2BA5C3B91BF26D8300318BB8 /* hangman1.gif in Resources */,
+				2BA5C3C11BF26DAD00318BB8 /* hangman5.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
